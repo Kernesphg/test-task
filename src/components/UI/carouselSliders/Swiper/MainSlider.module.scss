@@ -1,0 +1,21 @@
+.main_swiper {
+  position: relative;
+  height: 530px;
+  border-radius: 25px;
+}
+
+._slide {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+._span {
+  position: absolute;
+  top: 68%;
+  left: 3%;
+  color: white;
+  font-size: 42px;
+  max-width: 724px;
+  font-weight: 700;
+}

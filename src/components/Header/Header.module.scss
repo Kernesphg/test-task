@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 13px 0;
+  &_search {
+    display: flex;
+    align-items: center;
+    svg {
+      margin: 0 0 0 10px;
+    }
+  }
+}

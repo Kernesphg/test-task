@@ -1,0 +1,22 @@
+.search {
+  position: relative;
+  &_input {
+    width: 266px;
+    padding: 10px 40px 10px 54px;
+    align-items: center;
+    border: none;
+    color: var(--2, #192252);
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    // &:focus {
+    //   border: 1px solid red;
+    // }
+  }
+
+  &_icon {
+    position: absolute;
+    left: 8px;
+    top: 7px;
+  }
+}

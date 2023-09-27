@@ -1,0 +1,32 @@
+.button {
+  padding: 16px 16px;
+  height: 49px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #cecece;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+  &:active {
+    background: var(--brand-500, #4169e0);
+    color: var(--primary-neutral-0, #eff3fa);
+  }
+}
+._active {
+  padding: 16px 16px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  background: var(--brand-500, #4169e0);
+  color: var(--primary-neutral-0, #eff3fa);
+}

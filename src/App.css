@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  max-width: 1296px;
+  padding: 24px 15px 0 15px;
+  margin: 0 auto;
+}

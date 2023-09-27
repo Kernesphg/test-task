@@ -1,0 +1,24 @@
+.slider_button__block {
+  position: absolute;
+  bottom: 70px;
+  left: 89%;
+
+  z-index: 100;
+}
+
+.slider_button__item {
+  border: 1px solid #ffff;
+  border-radius: 100%;
+  padding: 13px 15px 12px 15px;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: 0 10px 0 0;
+  transition: padding ease-in-out 0.1s, opacity ease-in-out 0.1s;
+  &:hover {
+    opacity: 0.8;
+    padding: 10px 12px 9px 12px;
+  }
+  &:active {
+    padding: 9px 11px 8px 11px;
+  }
+}

@@ -1,0 +1,20 @@
+.reset_button {
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #e35d75;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 5px;
+  height: 49px;
+  border: 1px solid #e35d75;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+  &:hover {
+    background: #e35d75;
+    color: var(--primary-neutral-0, #eff3fa);
+  }
+}

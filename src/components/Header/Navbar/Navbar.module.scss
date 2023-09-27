@@ -1,0 +1,19 @@
+.navbar {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+}
+p,
+a {
+  .arrow {
+    padding: 0 0 0 6px;
+  }
+  transition: font-weight ease-in-out 0.3s, color ease-in-out 0.3s;
+  &:hover {
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(80, 80, 80);
+  }
+}

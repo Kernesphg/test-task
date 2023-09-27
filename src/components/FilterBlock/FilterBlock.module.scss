@@ -1,0 +1,24 @@
+.filterBlock {
+  padding: 93px 0 0 0;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  align-items: self-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 33px 0 0 0;
+}
+
+.title {
+  color: var(--1, #0c1a30);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.buttons {
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+}
