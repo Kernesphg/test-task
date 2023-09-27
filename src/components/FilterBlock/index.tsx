@@ -1,18 +1,18 @@
-import React from 'react';
-import ConfirmationButton from '../UI/buttons/ConfirmationButton';
-import ResetButton from '../UI/buttons/ResetButton';
-import FilterGap from './FilterGap';
-import FilterSelect from '../UI/selects/FilterSelect';
-import style from './FilterBlock.module.scss';
+import React from 'react'
+import ConfirmationButton from '../UI/buttons/ConfirmationButton'
+import ResetButton from '../UI/buttons/ResetButton'
+import FilterSelect from '../UI/selects/FilterSelect'
+import style from './FilterBlock.module.scss'
+import FilterGap from './FilterGap'
 
 const FilterBlock = () => {
-  const apartmentsTypes = ['Студия', '1к', '2к', '3к', '4к'];
+  const apartmentsTypes = ['Студия', '1к', '2к', '3к', '4к']
   const gapInputs = [
     { title: 'Стоимость  млн ₽', min: 0, max: 12 },
     { title: 'Площадь м2', min: 0, max: 13 },
     { title: 'Этаж', min: 0, max: 10 },
-  ];
-  const [apartmentsType, setApartmentsTypes] = React.useState(0);
+  ]
+  const [apartmentsType, setApartmentsTypes] = React.useState(0)
   return (
     <div className={style.filterBlock}>
       <p className={style.title}>Лучшие предложения</p>
@@ -30,9 +30,10 @@ const FilterBlock = () => {
           ))}
         </div>
 
-        {gapInputs.map((item) => (
+        {gapInputs.map(item => (
           <FilterGap {...item} />
         ))}
+
         <FilterSelect />
         <FilterSelect />
         <div className={style.buttons}>
@@ -41,7 +42,7 @@ const FilterBlock = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default FilterBlock;
+export default FilterBlock

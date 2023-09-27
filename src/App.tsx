@@ -1,7 +1,6 @@
-import './App.css';
-import Header from './components/Header';
-import Swiper from './components/UI/carouselSliders/Swiper';
-import FilterBlock from './components/FilterBlock';
+import FilterBlock from './components/FilterBlock'
+import Header from './components/Header'
+import Swiper from './components/UI/carouselSliders/Swiper'
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <Swiper />
       <FilterBlock />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

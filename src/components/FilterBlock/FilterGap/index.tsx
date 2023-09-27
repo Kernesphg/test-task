@@ -1,11 +1,11 @@
-import { FC } from 'react';
-import FilterInput from '../../UI/Inputs/FilterInput';
-import style from './FilterGap.module.scss';
+import { FC } from 'react'
+import FilterInput from '../../UI/Inputs/FilterInput'
+import style from './FilterGap.module.scss'
 
 interface filterGapProps {
-  title: string;
-  min: number;
-  max: number;
+  title: string
+  min: number
+  max: number
 }
 
 const FilterGap: FC<filterGapProps> = ({ title, min, max }) => {
@@ -21,7 +21,7 @@ const FilterGap: FC<filterGapProps> = ({ title, min, max }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default FilterGap;
+export default FilterGap

@@ -17,8 +17,10 @@
     color: var(--primary-neutral-0, #eff3fa);
   }
 }
+
 ._active {
-  padding: 16px 16px;
+  padding: 0 16px;
+  height: 49px;
   justify-content: center;
   align-items: center;
   border: none;
